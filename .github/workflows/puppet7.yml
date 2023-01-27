@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: Puppet gem fetch and install
+name: Puppet 7.22.0 gem fetch and install
 
 # Controls when the workflow will run
 on:
