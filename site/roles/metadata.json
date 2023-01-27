@@ -1,1 +1,46 @@
-# another fake metadata file
+{
+  "name": "ncsteam-roles",
+  "version": "0.1.0",
+  "author": "Helen Griffiths",
+  "summary": "",
+  "license": "Unlicense",
+  "source": "",
+  "dependencies": [
+
+  ],
+  "data_provider": "hiera",
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "CentOS",
+      "operatingsystemrelease": [
+        "7"
+      ]
+    },
+    {
+      "operatingsystem": "Debian",
+      "operatingsystemrelease": [
+        "9",
+        "10",
+        "11"
+      ]
+    },
+    {
+      "operatingsystem": "Ubuntu",
+      "operatingsystemrelease": [
+        "16.04",
+        "18.04",
+        "20.04",
+        "22.04"
+      ]
+    }
+  ],
+  "requirements": [
+    {
+      "name": "puppet",
+      "version_requirement": ">= 4.8.2 < 8.0.0"
+    }
+  ],
+  "pdk-version": "2.4.0",
+  "template-url": "https://github.com/puppetlabs/pdk-templates#1.17.0",
+  "template-ref": "tags/1.17.0-0-gd3a4319"
+}
